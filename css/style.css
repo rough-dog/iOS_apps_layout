@@ -1,5 +1,6 @@
 body {
 	background-color: #F4F4F4;
+	font-family: Myriad Pro;
 	margin: 0px;
 	padding: 0px;
 	/*max-height: 1772px;*/
@@ -9,8 +10,13 @@ header {
 	height: 561px;
 }
 
+header h1 {
+	position: absolute;
+	background-color: red;
+	left: 25%;
+}
 .wrap {
-	background-color: blue;
+	background-color: rgb(91, 97, 105);
 	max-width:  1920px;
 	margin: 0 auto;
 	position: relative;
@@ -22,23 +28,103 @@ nav {
 }
 
 .menu {
-	background-color: rgb(91, 97, 105);
-	width: 100%;
-	margin: 0 auto;
+	background-color: blue;
+	width: 18%;
 	position: absolute;
 	height: 90px;
 	top: 0px;
+	left: 56%;
 	
 }
 
 .slider {
-	background-color: #9BE1FF;
+	background-image: url(../img/blue_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
 	margin: 0 auto;
 	position: absolute;
 	height: 471px;
 	top: 90px;
 }
+
+.phone {
+	background-image: url(../img/phone_border.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: #FF66FF;*/
+	position: absolute;
+	left: -10px;
+	width: 374px;
+	height: 708px;
+	left: 25%;
+}
+
+.slider-holder
+        {
+           
+            width: 272px;
+            height: 393px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            text-align: left;
+            overflow: hidden;
+        }
+        
+        .image-holder
+        {
+            width: 816px;
+            background-color: red;
+            height: 393px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+        	            left: 0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -272px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -544px;
+        }
+        
+        .button-holder
+        {
+            position: relative;
+            top: -90px;
+            left: 45%;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
 
 article {
 	height: 490px;
