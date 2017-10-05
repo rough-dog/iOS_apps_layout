@@ -349,62 +349,13 @@ h3 {
 			top: 5px;
 			padding-left:  5px;
 		}
-		.blue {
-			background-color: #3674ba;
-			float: left;
-		}
-		.grey {
-			background-color: #828181;
-			float: left;
-		}
-		.sb1 {
-			width: 93%;
-			height: 30px;
-
-		}
-		.sg1 {
-			width: 7%;
-			height: 30px;
-		}
-		.sb2 {
-			width: 96%;
-			height: 30px;
-		}
-		.sg2 {
-			width: 4%;
-			height: 30px;
-		}
-		.sb3 {
-			width: 87%;
-			height: 30px;
-		}
-		.sg3 {
-			width: 13%;
-			height: 30px;
-		}
-		.sb4 {
-			width: 85%;
-			height: 30px;
-		}
-		.sg4 {
-			width: 15%;
-			height: 30px;
-		}
-		.map {
-			height: 460px;
-			background-size: 93%;
-		}
-		.top {
-			margin-top: 160px;
-		}
-
-
+	
 		.input-group {
 
 			border-radius: 0;
 			position: inherit;
 			width: 100%;
-			top: -139px;
+			top: 19px;
 
 		}
 		.form-control {
